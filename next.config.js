@@ -1,5 +1,4 @@
-const { get } = require('@vercel/edge-config');
-const { withContentlayer } = require('next-contentlayer');
+const { get } = require('@vercel/edge-config')
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
@@ -8,9 +7,9 @@ const nextConfig = {
   },
   redirects() {
     try {
-      return get('redirects');
+      return get('redirects')
     } catch {
-      return [];
+      return []
     }
   },
   headers() {
@@ -19,9 +18,9 @@ const nextConfig = {
         source: '/(.*)',
         headers: securityHeaders,
       },
-    ];
+    ]
   },
-};
+}
 
 // https://nextjs.org/docs/advanced-features/security-headers
 const ContentSecurityPolicy = `
@@ -32,7 +31,7 @@ const ContentSecurityPolicy = `
     media-src 'none';
     connect-src *;
     font-src 'self' data:;
-`;
+`
 
 const securityHeaders = [
   // https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP
@@ -70,6 +69,6 @@ const securityHeaders = [
     key: 'Permissions-Policy',
     value: 'camera=(), microphone=(), geolocation=()',
   },
-];
+]
 
-module.exports = withContentlayer(nextConfig);
+module.exports = nextConfig
