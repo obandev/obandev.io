@@ -1,14 +1,13 @@
-import clsx from 'clsx'
 import Image from 'next/image'
 import logo from 'public/images/home/logo.png'
 import glove from 'public/images/home/glove.png'
 
 import Link from './components/Link'
 import Svg from './components/Svg'
-import projects from './utils/projects'
 import social from './utils/social'
+import Projects from './components/Projects'
 
-export default async function Page() {
+export default function Page() {
   return (
     <section>
       <div className='relative flex space-between'>
@@ -33,22 +32,7 @@ export default async function Page() {
           Here are some projects that I've had the opportunity to contribute to.
         </p>
       </div>
-      <div className='columns-2 sm:columns-3 gap-4 my-8'>
-        {projects.map((p, i) => (
-          <a href={p.href} target='_blank' rel='noopener noreferrer' key={i}>
-            <div className={p.wrapperClass}>
-              <Image
-                alt={p.alt}
-                src={p.src}
-                fill
-                sizes={p.sizes}
-                priority
-                className={clsx(p.imgClass)}
-              />
-            </div>
-          </a>
-        ))}
-      </div>
+      <Projects />
       <div className='prose text-[#bfc7d5]'>
         <p>
           I have a depth experience working with typescript, react, graphql,
@@ -104,10 +88,8 @@ export default async function Page() {
 
       <div className='flex items-center mt-8 mb-8'>
         {social.map(({ icon, href }, i) => (
-          <a href={href} target='_blank' rel='noopener noreferrer'>
-            <Svg className='mr-4' key={i}>
-              {icon}
-            </Svg>
+          <a href={href} target='_blank' rel='noopener noreferrer' key={i}>
+            <Svg className='mr-4'>{icon}</Svg>
           </a>
         ))}
       </div>
