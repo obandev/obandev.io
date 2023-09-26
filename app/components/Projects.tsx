@@ -15,27 +15,26 @@ export default function Projects() {
       onMouseLeave={() => setIsHovered(false)}
     >
       {projects.map((p, i) => (
-        // <a
-        //   href={p.href}
-        //   target='_blank'
-        //   rel='noopener noreferrer'
-        //   key={i}
-        //   onMouseEnter={() => setHovered(i)}
-        //   onMouseLeave={() => setHovered(10)}
-        // >
-        <div className={p.wrapperClass}>
-          <Image
-            alt={p.alt}
-            src={p.src}
-            fill
-            sizes={p.sizes}
-            priority
-            className={clsx(p.imgClass, {
-              'md:opacity-50': isHovered && hovered !== i,
-            })}
-          />
-        </div>
-        // </a>
+        <a
+          href={p.href}
+          target='_blank'
+          rel='noopener noreferrer'
+          key={i}
+          onMouseEnter={() => setHovered(i)}
+          onMouseLeave={() => setHovered(10)}
+        >
+          <div className={p.wrapperClass}>
+            <Image
+              alt={p.alt}
+              src={p.src}
+              fill
+              priority
+              className={clsx(p.imgClass, {
+                'md:opacity-50': isHovered && hovered !== i,
+              })}
+            />
+          </div>
+        </a>
       ))}
     </div>
   )
