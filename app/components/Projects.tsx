@@ -21,7 +21,7 @@ export default function Projects() {
           onMouseLeave={() => setHovered(10)}
         >
           <a href={p.href} target='_blank' rel='noopener noreferrer' key={i}>
-            <Image
+            {/* <Image
               alt={p.alt}
               src={p.src}
               fill
@@ -29,7 +29,7 @@ export default function Projects() {
               className={clsx(p.imgClass, {
                 'md:opacity-50': isHovered && hovered !== i,
               })}
-            />
+            /> */}
           </a>
         </div>
       ))}
