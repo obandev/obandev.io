@@ -15,15 +15,15 @@ export default function Projects() {
       onMouseLeave={() => setIsHovered(false)}
     >
       {projects.map((p, i) => (
-        <a
-          href={p.href}
-          target='_blank'
-          rel='noopener noreferrer'
-          key={i}
-          onMouseEnter={() => setHovered(i)}
-          onMouseLeave={() => setHovered(10)}
-        >
-          <div className={p.wrapperClass}>
+        <div className={p.wrapperClass}>
+          <a
+            href={p.href}
+            target='_blank'
+            rel='noopener noreferrer'
+            key={i}
+            onMouseEnter={() => setHovered(i)}
+            onMouseLeave={() => setHovered(10)}
+          >
             <Image
               alt={p.alt}
               src={p.src}
@@ -33,8 +33,8 @@ export default function Projects() {
                 'md:opacity-50': isHovered && hovered !== i,
               })}
             />
-          </div>
-        </a>
+          </a>
+        </div>
       ))}
     </div>
   )
