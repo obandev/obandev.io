@@ -10,7 +10,7 @@ export default function Projects() {
 
   return (
     <div
-      className='columns-2 sm:columns-3 gap-4 my-8'
+      className='columns-2 sm:columns-3 gap-4 my-8 min-h-screen bg-black'
       onMouseEnter={() => setIsHovered(true)}
       onMouseLeave={() => setIsHovered(false)}
     >
@@ -28,6 +28,7 @@ export default function Projects() {
               alt={p.alt}
               src={p.src}
               priority
+              fill
               className={clsx(p.imgClass, {
                 'md:opacity-50': isHovered && hovered !== i,
               })}
