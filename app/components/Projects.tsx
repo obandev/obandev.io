@@ -10,20 +10,17 @@ export default function Projects() {
 
   return (
     <div
-      className='columns-2 sm:columns-3 gap-4 my-8'
+      className='columns-2 '
       onMouseEnter={() => setIsHovered(true)}
       onMouseLeave={() => setIsHovered(false)}
     >
       {projects.map((p, i) => (
-        <a
-          href={p.href}
-          target='_blank'
-          rel='noopener noreferrer'
-          key={i}
+        <div
+          className={p.wrapperClass}
           onMouseEnter={() => setHovered(i)}
           onMouseLeave={() => setHovered(10)}
         >
-          <div className={p.wrapperClass}>
+          <a href={p.href} target='_blank' rel='noopener noreferrer' key={i}>
             <Image
               alt={p.alt}
               src={p.src}
@@ -33,8 +30,8 @@ export default function Projects() {
                 'md:opacity-50': isHovered && hovered !== i,
               })}
             />
-          </div>
-        </a>
+          </a>
+        </div>
       ))}
     </div>
   )

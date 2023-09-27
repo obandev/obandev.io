@@ -32,7 +32,9 @@ export default function Page() {
           Here are some projects that I've had the opportunity to contribute to.
         </p>
       </div>
-      <Projects />
+      <div className='relative'>
+        <Projects />
+      </div>
       <div className='prose text-[#bfc7d5]'>
         <p>
           I have a depth experience working with typescript, react, graphql,

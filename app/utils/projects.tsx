@@ -11,7 +11,7 @@ export default [
     alt: 'quext',
     src: quext,
     sizes: '(max-width: 768px) 213px, 33vw',
-    imgClass: 'rounded-lg object-cover',
+    imgClass: 'rounded-lg',
     href: 'https://onequext.com',
   },
   {
@@ -19,7 +19,7 @@ export default [
     alt: 'parsley health',
     src: ph,
     size: '(max-width: 768px) 213px, 33vw',
-    imgClass: 'rounded-lg d-cover object-cover',
+    imgClass: 'rounded-lg',
     href: 'https://parsleyhealth.com',
   },
   {
@@ -27,7 +27,7 @@ export default [
     alt: 'delfino',
     src: delfino,
     size: '(max-width: 768px) 213px, 33vw',
-    imgClass: 'rounded-lg object-cover object-top sm:object-center',
+    imgClass: 'rounded-lg',
     href: 'https://delfino.cr',
   },
   {
@@ -35,7 +35,7 @@ export default [
     alt: 'nw',
     src: nw,
     size: '(max-width: 768px) 213px, 33vw',
-    imgClass: 'rounded-lg object-cover',
+    imgClass: 'rounded-lg',
     href: 'https://nwideas.com',
   },
   {
@@ -43,7 +43,7 @@ export default [
     alt: 'geeklist',
     src: geeklist,
     size: '(max-width: 768px) 213px, 33vw',
-    imgClass: 'rounded-lg object-cover',
+    imgClass: 'rounded-lg',
     href: 'https://geekli.st/waitlist',
   },
   {
@@ -51,7 +51,7 @@ export default [
     alt: 'blockmatic',
     src: blockmatic,
     size: '(min-width: 768px) 213px, 33vw',
-    imgClass: 'rounded-lg object-cover',
+    imgClass: 'rounded-lg',
     href: 'https://blockmatic.io',
   },
 ]
