@@ -10,7 +10,7 @@ export default function Projects() {
 
   return (
     <div
-      className='flex flex-row '
+      className='columns-2 bg-red-500'
       onMouseEnter={() => setIsHovered(true)}
       onMouseLeave={() => setIsHovered(false)}
     >
