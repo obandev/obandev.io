@@ -19,7 +19,7 @@ export default [
     alt: 'parsley health',
     src: ph,
     size: '(max-width: 768px) 213px, 33vw',
-    imgClass: 'rounded-lg d-cover object-cover',
+    imgClass: 'rounded-lg object-cover',
     href: 'https://parsleyhealth.com',
   },
   {
@@ -27,7 +27,7 @@ export default [
     alt: 'delfino',
     src: delfino,
     size: '(max-width: 768px) 213px, 33vw',
-    imgClass: 'rounded-lg object-cover object-top sm:object-center',
+    imgClass: 'rounded-lg object-cover',
     href: 'https://delfino.cr',
   },
   {
