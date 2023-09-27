@@ -16,24 +16,15 @@ export default function Projects() {
     >
       {projects.map((p, i) => (
         <div className={p.wrapperClass}>
-          <a
-            href={p.href}
-            target='_blank'
-            rel='noopener noreferrer'
-            key={i}
-            onMouseEnter={() => setHovered(i)}
-            onMouseLeave={() => setHovered(10)}
-          >
-            <Image
-              alt={p.alt}
-              src={p.src}
-              priority
-              fill
-              className={clsx(p.imgClass, {
-                'md:opacity-50': isHovered && hovered !== i,
-              })}
-            />
-          </a>
+          <Image
+            alt={p.alt}
+            src={p.src}
+            priority
+            fill
+            className={clsx(p.imgClass, {
+              'md:opacity-50': isHovered && hovered !== i,
+            })}
+          />
         </div>
       ))}
     </div>
