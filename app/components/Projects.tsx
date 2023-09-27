@@ -10,7 +10,7 @@ export default function Projects() {
 
   return (
     <div
-      className='columns-1 sm:columns-3 gap-4 my-8 '
+      className='columns-2 sm:columns-3 gap-4 my-8'
       onMouseEnter={() => setIsHovered(true)}
       onMouseLeave={() => setIsHovered(false)}
     >
