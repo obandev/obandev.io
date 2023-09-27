@@ -13,6 +13,9 @@ export default function Projects() {
       className='columns-2 sm:columns-3 gap-4 my-8'
       onMouseEnter={() => setIsHovered(true)}
       onMouseLeave={() => setIsHovered(false)}
+      style={{
+        columns: '120px',
+      }}
     >
       {projects.map((p, i) => (
         <a

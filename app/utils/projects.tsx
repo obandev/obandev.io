@@ -12,6 +12,7 @@ export default [
     src: quext,
     imgClass: 'rounded-lg object-cover',
     href: 'https://onequext.com',
+    sizes: '(max-width: 768px) 213px, 33vw',
   },
   {
     wrapperClass: 'relative h-80 mb-4 sm:mb-0',
@@ -19,6 +20,7 @@ export default [
     src: ph,
     imgClass: 'rounded-lg d-cover object-cover',
     href: 'https://parsleyhealth.com',
+    sizes: '(max-width: 768px) 213px, 33vw',
   },
   {
     wrapperClass: 'relative h-40 sm:h-80 sm:mb-4',
@@ -26,6 +28,7 @@ export default [
     src: delfino,
     imgClass: 'rounded-lg object-cover object-top sm:object-center',
     href: 'https://delfino.cr',
+    sizes: '(max-width: 768px) 213px, 33vw',
   },
   {
     wrapperClass: 'relative h-40 mb-4 sm:mb-0',
@@ -33,6 +36,7 @@ export default [
     src: nw,
     imgClass: 'rounded-lg object-cover',
     href: 'https://nwideas.com',
+    sizes: '(max-width: 768px) 213px, 33vw',
   },
   {
     wrapperClass: 'relative h-40 mb-4',
@@ -40,6 +44,7 @@ export default [
     src: geeklist,
     imgClass: 'rounded-lg object-cover',
     href: 'https://geekli.st/waitlist',
+    sizes: '(max-width: 768px) 213px, 33vw',
   },
   {
     wrapperClass: 'relative h-80',
@@ -47,5 +52,6 @@ export default [
     src: blockmatic,
     imgClass: 'rounded-lg object-cover',
     href: 'https://blockmatic.io',
+    sizes: '(max-width: 768px) 213px, 33vw',
   },
 ]
