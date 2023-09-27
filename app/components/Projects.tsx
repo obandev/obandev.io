@@ -10,7 +10,7 @@ export default function Projects() {
 
   return (
     <div
-      className='columns-2 sm:columns-3 gap-4 my-8'
+      className='h-[705px] sm:h-auto flex flex-row flex-wrap sm:columns-3 sm:block gap-4 my-8 overflow-hidden'
       onMouseEnter={() => setIsHovered(true)}
       onMouseLeave={() => setIsHovered(false)}
     >
@@ -22,6 +22,7 @@ export default function Projects() {
           key={i}
           onMouseEnter={() => setHovered(i)}
           onMouseLeave={() => setHovered(10)}
+          className={clsx('w-[47.5%] sm:w-auto', p.aClass, 'sm:order-none')}
         >
           <div className={p.wrapperClass}>
             <Image
