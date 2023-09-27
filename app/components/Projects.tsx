@@ -27,7 +27,6 @@ export default function Projects() {
             <Image
               alt={p.alt}
               src={p.src}
-              fill
               priority
               className={clsx(p.imgClass, {
                 'md:opacity-50': isHovered && hovered !== i,
