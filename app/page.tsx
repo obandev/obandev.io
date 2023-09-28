@@ -12,7 +12,7 @@ export default function Page() {
     <section>
       <div className='relative flex space-between'>
         <h1 className='mt-28 md:mt-32 text-[#c792e8] font-bold text-3xl tracking-tighter'>
-          Hey, I'm Pablo
+          Hey, I'm Pablo.
         </h1>
         <Image
           alt='astronaut'
@@ -31,14 +31,13 @@ export default function Page() {
         <p>
           I collaborate with teams to drive software product development,
           guiding technical decisions from concept to production, ensuring
-          successful project execution. Here are some projects that I've worked
+          successful project execution. Here are some projects that I've worked.
         </p>
       </div>
       <Projects />
       <div className='prose text-[#bfc7d5]'>
         <p>
-          My favorite technologies, in which I have extensive experience,
-          includes{' '}
+          My favorite technologies, in which I have extensive experience, are{' '}
           <span className='text-[#75d3c1] font-semibold'>
             typescript, react, tailwind, graphql, mongodb, postgres, and node
           </span>{' '}
@@ -47,7 +46,7 @@ export default function Page() {
         </p>
         <p>
           I'm currently finishing the university, studying for certify me on aws
-          certified developer - associate and learning solidity.
+          developer - associate and also learning solidity.
         </p>
         <p>
           Beyond the IDE, I enjoy spending quality time with my family, reading,
