@@ -37,16 +37,21 @@ export default function Page() {
       <Projects />
       <div className='prose text-[#bfc7d5]'>
         <p>
-          I have a depth experience working with typescript, react, graphql,
-          tailwind node. If these align with your expertise or interests, we may
-          find some valuable common ground.
+          My favorite technologies, in which I have extensive experience,
+          includes{' '}
+          <span className='text-[#75d3c1] font-semibold'>
+            typescript, react, tailwind, graphql, mongodb, postgres, and node
+          </span>{' '}
+          . If these technologies resonate with your expertise or interests,
+          there's a strong possibility we can find common ground for work.
         </p>
         <p>
-          I'm finishing the university, and studying for certify me on AWS
-          Certified Developer - Associate. Also I'm learning solidity.
+          I'm currently finishing the university, studying for certify me on aws
+          certified developer - associate and learning solidity.
         </p>
         <p>
-          Beyond the IDE, I love to cherish family time, travel and tasty food.
+          Beyond the IDE, I enjoy spending quality time with my family, reading,
+          exploring new destinations through travel, and savoring diverse food.
           I'm blending my academic journey with life's enjoyable moments,
           creating an unique chapter.
         </p>
@@ -56,6 +61,7 @@ export default function Page() {
           <h3 className='text-[#c792e8] font-bold text-3xl tracking-tighter'>
             Ready to connect?
           </h3>
+          <p>Let's code together.</p>
         </div>
         <Image
           alt='below'
