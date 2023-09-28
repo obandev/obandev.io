@@ -23,36 +23,38 @@ export default function Page() {
       </div>
       <div className='prose text-[#bfc7d5]'>
         <p>
-          With over 6 years of experience developing web pages and apps, I'm a
-          passionate software developer from SJ, Costa Rica. Focused on
-          improving user experiences and ensuring top-notch UI code quality in
-          all project-related processes.
+          I'm a passionate full stack developer with over 5 years of experience
+          developing web pages and mobile apps, focused on improving user
+          experiences and ensuring top-notch UI code quality in all
+          project-related processes.
         </p>
         <p>
-          Here are some projects that I've had the opportunity to contribute to.
+          I collaborate with teams to drive software product development,
+          guiding technical decisions from concept to production, ensuring
+          successful project execution. Here are some projects that I've worked
         </p>
       </div>
       <Projects />
       <div className='prose text-[#bfc7d5]'>
         <p>
           I have a depth experience working with typescript, react, graphql,
-          node, relational and non relational databases . If these align with
-          your expertise or interests, we may find some valuable common ground.
+          tailwind node. If these align with your expertise or interests, we may
+          find some valuable common ground.
         </p>
         <p>
           I'm finishing the university, and studying for certify me on AWS
-          Certified Developer - Associate, and solidity.
+          Certified Developer - Associate. Also I'm learning solidity.
         </p>
         <p>
-          Beyond the IDE, I cherish family time, travel and tasty food. I'm
-          blending my academic journey with life's enjoyable moments, creating
-          an unique chapter.
+          Beyond the IDE, I love to cherish family time, travel and tasty food.
+          I'm blending my academic journey with life's enjoyable moments,
+          creating an unique chapter.
         </p>
       </div>
       <div className='flex flex-row justify-between mt-10'>
         <div>
           <h3 className='text-[#c792e8] font-bold text-3xl tracking-tighter'>
-            Lets get in touch?
+            Ready to connect?
           </h3>
         </div>
         <Image
