@@ -32,7 +32,7 @@ export default function Page() {
           I collaborate with teams to drive software product development,
           guiding technical decisions from concept to production, ensuring
           successful project execution. Here are some projects that I've the
-          privileage of work.
+          privilege of work.
         </p>
       </div>
       <Projects />
