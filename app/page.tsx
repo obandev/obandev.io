@@ -30,7 +30,7 @@ export default function Page() {
         </p>
         <p>
           I collaborate with teams to drive software product development,
-          guiding technical decisions from concept to production, ensuring
+          guiding technical decisions from concept to production, and ensuring
           successful project execution. Here are some projects that I've the
           privilege of work.
         </p>
