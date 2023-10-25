@@ -23,7 +23,7 @@ export default function Page() {
       </div>
       <div className='prose text-[#bfc7d5]'>
         <p>
-          I'm a passionate full stack developer from SJ, Costa Rica, with 6
+          I'm a passionate full stack developer from SJ, Costa Rica. With over 6
           years of experience developing web pages and mobile apps, focused on
           improving user experiences and ensuring top-notch UI code quality in
           all project-related processes.
